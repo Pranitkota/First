@@ -1,0 +1,33 @@
+#one{
+			color:blue;
+		}
+		#two{
+			color:green;
+		}
+	.pranit{
+		color:brown;
+	}	
+	#five{
+		height:200px;
+		width:200px;
+		background-color:purple;
+		border-radius:50px 20px 30px 70px; /*to circle edges */
+		border:4px double black;
+		box-shadow:10px 15px 25px red;
+	}
+	#six{
+		height:200px;
+		width:200px;
+		background-color:orange;
+	}
+    h1{
+	 	text-shadow:5px 5px 25px blue;
+      }
+      body{
+      	background:linear-gradient(-90deg,skyblue,yellow)
+      }
+	#seven{
+		height:200px;
+		width:200px;
+		background-color:blue;
+	}
