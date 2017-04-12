@@ -13,13 +13,17 @@
 			</legend>
 			Your First Name:<input type="text" name="Fname" required > <br> <!-- what is type and  name -->
 			Your Last  Name:<input type="text" name="Lname" required > <br>
-			Your Middle Name:<input type="text" name="Mname" placeholder="OPITIONAL"> <br>
+			Your Middle Name:<input type="text" name="Mname" placeholder="OPITIONAL" readonly> <br>
 			E-MAIL:<input type="email" name="email" placeholder="Gmail or Yahoo"> <br>
 			NATIONALITY:<input type="country" name="country" required > <br>
-			GENDER:<input type="text" name="gender" required > <br>
-			AGE:<input type="DATE" name="AGE" required > <br>
+			Gender<br>
+			male:<input type="radio" name="gender" value="male">
+			female:<input type="radio" name="gender" value="female"> <br>
+			AGE:<input type="number" name="AGE" required > <br>
 			DATE:<input type="DATE" name="DATE" required > <br>
-			<input type="submit" value="submit"> <br>
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+			<input type="button" value="hello">
 		</fieldset>
 	</form>
 </body>
