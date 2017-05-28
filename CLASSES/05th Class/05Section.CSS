@@ -1,0 +1,22 @@
+#home{
+	height:800px;
+	width:100%;
+	background-color:yellow;
+}
+#about{
+	height:700px;
+	width:100%;
+	background-color:skyblue;
+}
+#contact{
+	height:600px;
+	width:100%;
+	background-color:pink;
+
+}
+#menu{
+	position:fixed;
+	height:50px;
+	width:100%;
+	background-color: red;
+}
